@@ -6,7 +6,7 @@ section {
 }
 
 .navbar .nav-link {
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
@@ -14,6 +14,32 @@ section {
 
 .navbar .nav-item.active {
   border-left: #444 3px solid;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+  float: left;
+  margin-top: 5px;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("../images/image1.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../images/image2.jpg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("../images/image3.jpg");
+  background-size: cover;
 }
 
 #details {
@@ -43,25 +69,27 @@ section {
   letter-spacing: 1px;
 }
 
-.carousel-item {
-  height: 450px;
-}
-
-.carousel-image-1 {
-  background: url("../images/image1.jpg");
+#amount {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/lights.jpg");
+  background-position: center;
   background-size: cover;
+  height: 120vh;
+  background-attachment: fixed;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  word-spacing: 4px;
+  letter-spacing: 1px;
 }
 
-.carousel-image-2 {
-  background: url("../images/image2.jpg");
-  background-size: cover;
+#amount h3 {
+  margin-top: 40px;
 }
 
-.carousel-image-3 {
-  background: url("../images/image3.jpg");
-  background-size: cover;
+.features h5 {
+  margin-right: 10px;
 }
-
 #home-heading {
   position: relative;
   min-height: 200px;
@@ -93,20 +121,6 @@ section {
 
 .about-img {
   margin-top: -50px;
-}
-
-#faq .card {
-  border: #444;
-}
-
-#faq a {
-  color: #fff;
-  text-decoration: none;
-}
-
-#faq .card-body,
-#faq .card-header {
-  background: #333;
 }
 
 #main-footer {
