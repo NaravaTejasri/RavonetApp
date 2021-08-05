@@ -22,10 +22,13 @@ This project is implemented using Bootstrap,Html&Css and less javascript.
 ### Required Software Tools ###
   * Visual Studio Code.
 
+### Design ###
+  * Responsive design, covered for the both desktop and mobile.
+
 #### How to run the application ####
-1. clone the repo to your local and Open index.html in any browser of your choice.
-or 
-2. open the link - 
+1. clone the repo to your local and Open index.html in any browser of your choice
+(or)
+2. open the link - https://naravatejasri.github.io/RavonetApp/
 
 ### Project Setup ###
 
@@ -35,3 +38,6 @@ or
   *	assets/styles/style.css 
   
 #### `/img`(This directory includes all images used in this project ) ####
+
+### Testing ###
+  * Tested using google chrome V92 and iPhoneX.
