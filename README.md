@@ -26,9 +26,7 @@ This project is implemented using Bootstrap,Html&Css and less javascript.
   * Responsive design, covered for the both desktop and mobile.
 
 #### How to run the application ####
-1. clone the repo to your local and Open index.html in any browser of your choice
-(or)
-2. open the link - https://naravatejasri.github.io/RavonetApp/
+1. clone the repo to your local and Open index.html in any browser of your choice.
 
 ### Project Setup ###
 
